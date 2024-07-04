@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <h1>To-Do List</h1>
+      <div class="action-wrapper">
+        <input type="text" id="input" placeholder="Add new tasks..." /><button
+          id="add_btn"
+        >
+          Add
+        </button>
+      </div>
+      <div id="current_tasks"></div>
+      <div class="list-wrapper" id="item_list_container">
+        <div class="list-item"></div>
+        <div class="item-actions">
+          <button>Edit</button>
+          <button>Delete</button>
+        </div>
+      </div>
+      <div class="completed-wrapper" id="completed_list_container">
+        <div class="list-item"></div>
+        <!-- <div class="item-actions">
+          <button>Edit</button>
+          <button>Delete</button>
+        </div> -->
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
